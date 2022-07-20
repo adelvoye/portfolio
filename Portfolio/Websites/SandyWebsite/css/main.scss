@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(../css/images/image.avif);
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  opacity: .5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+//Header//
+header {
+  background: rgba(131, 59, 13, 0.4);
+  width: 100%;
+  display: flex;
+  color: black;
+  height: 100px;
+
+  .container {
+    background: rgba(131, 59, 13, 0.9);
+    width: 40%;
+    line-height: 3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+
+    h4 {
+      text-align: center;
+      font-style: oblique;
+      font-size: 13px;
+    }
+
+    .name {
+      font-size: 29px;
+    }
+    }
+
+  
+    .navbar {
+      font-size: 32px;
+      padding-left: 100px;
+      font-weight: bold;
+
+      ul {
+        list-style-type: none;
+        display: flex;
+        li {
+          padding:20px;
+          
+        }
+      }
+      
+    }
+}
+// end of header //@at-root
+
+//Reviews//
+
+.reviews {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px;
+  text-align: center;
+  
+  .review1 {
+    background-image: url(../css/images/photo-1499209974431-9dddcece7f88.avif);
+    margin: 10px;
+    padding-top: 20px;
+    font-size: 24px;
+    color: white;
+
+  }
+
+  .review2 {
+    background-image: url(../css/images/photo-1547637589-f54c34f5d7a4.avif);
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+
+    p {
+      padding-bottom: 40px;
+    }
+  }
+
+  .review3 {
+    background-image: url(../css/images/photo-1497561813398-8fcc7a37b567.avif);
+    margin: 10px;
+    padding: 20px;
+    font-size: 24px;
+    color: white;
+
+    p {
+      padding-bottom: 40px;
+    }
+  }
+
+  
+}
+
+// end of reviews// 
+
+
+
+
+
+//Services//
+.services {
+  text-align: center;
+  padding: 200px;
+  background: rgba(240, 226, 218, 0.5);
+
+  h1 {
+    font-size: 50px;
+    padding-bottom: 50px;
+  }
+     
+  ul {
+    list-style-type: none;
+    font-weight: bold;
+  }
+}
+
+//end of services//
+
+//contact//
+
+.contact {
+  padding: 200px;
+  display: inline-block;
+  width: 100%;
+  transform: translateX(500px);
+  
+  
+  h1 {
+    padding-bottom: 50px;
+    font-size: 30px;
+  }
+}
+
+// end of contact//
+
+
+
+
+
+
+
+  
+
+

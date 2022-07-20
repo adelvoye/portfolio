@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #999;
+  color: black;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: white;
+  padding: 10px;
+}
+header .header-one {
+  display: flex;
+  justify-content: space-between;
+  height: 40px;
+  width: 40px;
+}
+header .header-two {
+  display: flex;
+  justify-content: space-evenly;
+}
+header .header-two .container-search {
+  display: flex;
+  height: 40px;
+}
+header .header-two .container-search .search-bar {
+  width: 400px;
+}
+header .header-two .container-micro {
+  background-color: #dfd5d5;
+  border-radius: 30px;
+  margin-left: 10px;
+  align-items: center;
+}
+header .header-two .container-micro .microphone {
+  padding: 10px;
+  vertical-align: middle;
+}
+header .header-three {
+  display: flex;
+  justify-items: center;
+}
+header .header-three .video-icon {
+  margin-right: 10px;
+}
+header .header-three .notifications {
+  margin: 10px;
+}
+header .header-three button {
+  border-radius: 30px;
+  height: 32px;
+  width: 32px;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: 20px;
+  background: rgb(112, 60, 12);
+}/*# sourceMappingURL=main.css.map */
